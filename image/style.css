@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+body {
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 1em;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  color: white;
+}
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  flex-basis: auto;
+  margin-left: 2em;
+}
+
+div > img {
+  width: 45em;
+  height: 25em;
+
+}
+
+.profile_text {
+  width: 50%;
+
+}
+div.profile_text  p{
+    color: white;
+}
+.about {
+  color: white;
+}
+.my_work {
+  color: white;
+}
+
+.contacts {
+  color: white;
+}
