@@ -1,12 +1,21 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  
+  color: white;
+
 }
 
 body {
   background-color: black;
 }
+
+header {
+  border: 1px solid white;
+  border-radius: 1em;
+  background-image: url(/image/albulena-panduri-wnSZ-4cZep8-unsplash.jpg);
+
+}
+
 nav ul {
   display: flex;
   justify-content: flex-end;
@@ -16,37 +25,35 @@ nav ul li {
   list-style: none;
   padding: 1em;
 }
+
 nav ul li a {
   text-decoration: none;
   color: white;
 }
-h1 {
-  color: white;
-}
+
 .hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1em;
-  flex-basis: auto;
-  margin-left: 2em;
+  text-align: center;
+  font-size: x-large;
+  
 }
 
-div > img {
-  width: 45em;
-  height: 25em;
-
+#name {
+  color: #EC23FF;
 }
 
 .profile_text {
   width: 50%;
 
 }
-div.profile_text  p{
-    color: white;
+
+div.profile_text p {
+  color: white;
 }
+
 .about {
   color: white;
 }
+
 .my_work {
   color: white;
 }
